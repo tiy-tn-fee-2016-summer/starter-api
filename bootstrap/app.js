@@ -48,6 +48,7 @@ const aceProviders = [
   'adonis-ace/providers/CommandProvider',
   'adonis-commands/providers/GeneratorsProvider',
   'adonis-commands/providers/ReplProvider',
+  'adonis-generators/providers/GeneratorsProvider',
 ];
 
 /*
@@ -104,6 +105,8 @@ const commands = [
   'Adonis/Commands/DB:Seed',
   'Adonis/Commands/Migration:Status',
   'Adonis/Commands/Key:Generate',
+  'AdonisGenerators/Generate:Model',
+  'AdonisGenerators/Generate:Migration',
 ];
 
 module.exports = { providers, aceProviders, aliases, commands };
