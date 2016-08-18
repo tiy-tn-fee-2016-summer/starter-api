@@ -1,0 +1,19 @@
+{
+  "name": "Adonis App",
+  "description": "A simple app for working with node APIs and Servers.",
+  "repository": "https://github.com/adonisjs/adonis-framework",
+  "addons": ["heroku-postgresql"],
+  "scripts": {
+    "postdeploy": "node --harmony_proxies ace migration:run --force"
+  },
+  "env": {
+    "APP_KEY": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "DB_CONNECTION": {
+      "description": "The database type to connect to.",
+      "value": "pg"
+    }
+  }
+}
