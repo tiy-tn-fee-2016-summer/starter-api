@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 module.exports = {
   /*
@@ -19,7 +19,7 @@ module.exports = {
     },
     reportOnly: false,
     setAllHeaders: false,
-    disableAndroid: true
+    disableAndroid: true,
   },
 
   /*
@@ -33,7 +33,7 @@ module.exports = {
   */
   xss: {
     enabled: true,
-    enableOnOldIE: false
+    enableOnOldIE: false,
   },
 
   /*
@@ -84,7 +84,7 @@ module.exports = {
     enable: true,
     methods: ['POST', 'PUT', 'DELETE'],
     filterUris: [],
-    compareHostAndOrigin: true
-  }
+    compareHostAndOrigin: true,
+  },
 
-}
+};

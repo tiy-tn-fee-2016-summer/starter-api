@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +15,12 @@
 | Route.resource('user', 'UserController')
 */
 
-const Route = use('Route')
+const Route = use('Route');
 
-Route.on('/').render('welcome')
+Route.any('/', function * (request, response) {
+  response.json({
+    meta: {
+      uptime: process.uptime(),
+    },
+  });
+});

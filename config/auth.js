@@ -1,6 +1,6 @@
-'use strict'
+'use strict';
 
-const Config = use('Config')
+const Config = use('Config');
 
 module.exports = {
 
@@ -33,7 +33,7 @@ module.exports = {
     model: 'App/Model/User',
     scheme: 'session',
     uid: 'email',
-    password: 'password'
+    password: 'password',
   },
 
   /*
@@ -49,7 +49,7 @@ module.exports = {
     model: 'App/Model/User',
     scheme: 'basic',
     uid: 'email',
-    password: 'password'
+    password: 'password',
   },
 
   /*
@@ -65,7 +65,7 @@ module.exports = {
     serializer: 'Lucid',
     model: 'App/Model/User',
     scheme: 'jwt',
-    secret: Config.get('app.appKey')
+    secret: Config.get('app.appKey'),
   },
 
   /*
@@ -83,7 +83,7 @@ module.exports = {
   api: {
     serializer: 'Lucid',
     model: 'App/Model/Token',
-    scheme: 'api'
-  }
+    scheme: 'api',
+  },
 
-}
+};

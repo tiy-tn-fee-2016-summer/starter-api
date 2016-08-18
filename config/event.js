@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 module.exports = {
 
@@ -32,6 +32,6 @@ module.exports = {
   | seems to be a good number.
   |
   */
-  maxListeners: 10
+  maxListeners: 10,
 
-}
+};

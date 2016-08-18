@@ -1,0 +1,12 @@
+{
+  "extends": "rtablada",
+  "globals": {
+    "use": "true"
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-console": 0
+  }
+}
