@@ -23,6 +23,8 @@
     "adonis-generators": "^0.2.0",
     "adonis-lucid": "^3.0.3",
     "adonis-middleware": "^1.0.7",
+    "pg": "^6.1.0",
+    "pg-native": "^1.10.0",
     "youch": "^1.0.1"
   },
   "autoload": {
