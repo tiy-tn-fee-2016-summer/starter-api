@@ -7,6 +7,9 @@
     "start": "node --harmony_proxies server.js",
     "esfix": "eslint app --fix && eslint bootstrap --fix && eslint config --fix && eslint database --fix"
   },
+  "engines": {
+    "node": "6.2.2"
+  },
   "author": "",
   "license": "MIT",
   "description": "",
