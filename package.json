@@ -5,6 +5,9 @@
   "scripts": {
     "dev": "nodemon --watch app --watch bootstrap --watch config --watch .env -x \"node --harmony_proxies\" server.js",
     "start": "node --harmony_proxies server.js",
+    "migrate": "node --harmony_proxies ace migration:run --force",
+    "rollback": "node --harmony_proxies ace migration:rollback --force",
+    "refresh": "node --harmony_proxies ace migration:refresh --force",
     "esfix": "eslint app --fix && eslint bootstrap --fix && eslint config --fix && eslint database --fix"
   },
   "engines": {
