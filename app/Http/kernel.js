@@ -17,6 +17,7 @@ const globalMiddleware = [
   'Adonis/Middleware/Shield',
   'Adonis/Middleware/Flash',
   'Adonis/Middleware/AuthInit',
+  'AdonisJsonApi/Middleware',
 ];
 
 /*

@@ -77,6 +77,18 @@
       "from": "adonis-generators@latest",
       "resolved": "https://registry.npmjs.org/adonis-generators/-/adonis-generators-0.2.0.tgz"
     },
+    "adonis-jsonapi": {
+      "version": "0.3.0",
+      "from": "adonis-jsonapi@latest",
+      "resolved": "https://registry.npmjs.org/adonis-jsonapi/-/adonis-jsonapi-0.3.0.tgz",
+      "dependencies": {
+        "node-exceptions": {
+          "version": "1.0.3",
+          "from": "node-exceptions@>=1.0.3 <2.0.0",
+          "resolved": "https://registry.npmjs.org/node-exceptions/-/node-exceptions-1.0.3.tgz"
+        }
+      }
+    },
     "adonis-lucid": {
       "version": "3.0.3",
       "from": "adonis-lucid@3.0.3",
@@ -1717,6 +1729,11 @@
       "from": "inflect@>=0.3.0 <0.4.0",
       "resolved": "https://registry.npmjs.org/inflect/-/inflect-0.3.0.tgz"
     },
+    "inflected": {
+      "version": "1.1.7",
+      "from": "inflected@>=1.1.6 <2.0.0",
+      "resolved": "https://registry.npmjs.org/inflected/-/inflected-1.1.7.tgz"
+    },
     "inflight": {
       "version": "1.0.5",
       "from": "inflight@>=1.0.4 <2.0.0",
@@ -1901,6 +1918,18 @@
       "version": "1.0.1",
       "from": "json-stable-stringify@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/json-stable-stringify/-/json-stable-stringify-1.0.1.tgz"
+    },
+    "jsonapi-serializer": {
+      "version": "3.3.0",
+      "from": "jsonapi-serializer@>=3.3.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/jsonapi-serializer/-/jsonapi-serializer-3.3.0.tgz",
+      "dependencies": {
+        "lodash": {
+          "version": "3.10.1",
+          "from": "lodash@>=3.9.3 <4.0.0",
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
+        }
+      }
     },
     "jsonfile": {
       "version": "2.3.1",
@@ -2120,6 +2149,16 @@
       "from": "lodash.keys@>=3.0.0 <4.0.0",
       "resolved": "https://registry.npmjs.org/lodash.keys/-/lodash.keys-3.1.2.tgz"
     },
+    "lodash.keysin": {
+      "version": "4.2.0",
+      "from": "lodash.keysin@>=4.2.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.keysin/-/lodash.keysin-4.2.0.tgz"
+    },
+    "lodash.mapkeys": {
+      "version": "4.6.0",
+      "from": "lodash.mapkeys@>=4.6.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.mapkeys/-/lodash.mapkeys-4.6.0.tgz"
+    },
     "lodash.pad": {
       "version": "4.5.0",
       "from": "lodash.pad@>=4.1.0 <5.0.0",
@@ -2134,6 +2173,11 @@
       "version": "4.6.0",
       "from": "lodash.padstart@>=4.1.0 <5.0.0",
       "resolved": "https://registry.npmjs.org/lodash.padstart/-/lodash.padstart-4.6.0.tgz"
+    },
+    "lodash.pick": {
+      "version": "4.4.0",
+      "from": "lodash.pick@>=4.4.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.pick/-/lodash.pick-4.4.0.tgz"
     },
     "lodash.pickby": {
       "version": "4.6.0",
