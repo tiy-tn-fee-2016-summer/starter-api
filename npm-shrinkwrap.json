@@ -73,9 +73,9 @@
       }
     },
     "adonis-generators": {
-      "version": "0.2.0",
-      "from": "adonis-generators@latest",
-      "resolved": "https://registry.npmjs.org/adonis-generators/-/adonis-generators-0.2.0.tgz"
+      "version": "0.4.1",
+      "from": "adonis-generators@0.4.1",
+      "resolved": "https://registry.npmjs.org/adonis-generators/-/adonis-generators-0.4.1.tgz"
     },
     "adonis-jsonapi": {
       "version": "0.3.0",
@@ -90,9 +90,9 @@
       }
     },
     "adonis-lucid": {
-      "version": "3.0.3",
-      "from": "adonis-lucid@3.0.3",
-      "resolved": "https://registry.npmjs.org/adonis-lucid/-/adonis-lucid-3.0.3.tgz"
+      "version": "3.0.4",
+      "from": "adonis-lucid@3.0.4",
+      "resolved": "https://registry.npmjs.org/adonis-lucid/-/adonis-lucid-3.0.4.tgz"
     },
     "adonis-middleware": {
       "version": "1.0.7",
@@ -2403,9 +2403,9 @@
       "resolved": "https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.7.tgz"
     },
     "nodemon": {
-      "version": "1.10.0",
-      "from": "nodemon@>=1.9.1 <2.0.0",
-      "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-1.10.0.tgz"
+      "version": "1.10.2",
+      "from": "nodemon@1.10.2",
+      "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-1.10.2.tgz"
     },
     "nopt": {
       "version": "1.0.10",
@@ -3232,9 +3232,9 @@
       }
     },
     "write-file-atomic": {
-      "version": "1.1.4",
+      "version": "1.2.0",
       "from": "write-file-atomic@>=1.1.2 <2.0.0",
-      "resolved": "https://registry.npmjs.org/write-file-atomic/-/write-file-atomic-1.1.4.tgz"
+      "resolved": "https://registry.npmjs.org/write-file-atomic/-/write-file-atomic-1.2.0.tgz"
     },
     "xdg-basedir": {
       "version": "2.0.0",
